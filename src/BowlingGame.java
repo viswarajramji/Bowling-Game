@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**@author viswarajramji kumar*/
+
 class StartBowlingGame {
 
 	private int N;
