@@ -112,12 +112,6 @@ class StartBowlingGame {
 						+ (10 - temp));
 				int value = Integer.parseInt(getScannerInput());
 				if (value >= 0 && value <= TEN - temp) {
-					if (value == 10 && temp == 0)
-						System.out.println("  => RESULT : Wow!! that's a Strike!!");
-					else if (value + temp == 10)
-						System.out.println("  => RESULT : Great!! that's a Spare!!");
-					else
-						System.out.println("  => RESULT :Nice Try!!");
 					return value;
 				}
 			} catch (NumberFormatException ex) {
