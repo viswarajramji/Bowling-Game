@@ -1,3 +1,3 @@
 # Bowling-Game
 
-This application is a score-based calculator for bowling game.
+This application is a score-board calculator for bowling game.
